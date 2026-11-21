@@ -1,0 +1,46 @@
+
+
+# Core GUI Framework
+PySide6>=6.5.0
+
+# AI and Machine Learning
+google-generativeai>=0.3.0
+
+# Voice Recognition and Text-to-Speech
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+gTTS>=2.5.0
+playsound>=1.2.2
+
+# Audio processing (required for speech recognition)
+pyaudio>=0.2.11
+
+# Alternative TTS engines (optional, for better voices)
+# Windows SAPI (built-in on Windows)
+# macOS: uses built-in voices
+# Linux: espeak-ng (install via system package manager)
+
+# Optional: Better audio handling
+sounddevice>=0.4.6
+
+# Web requests and APIs
+requests>=2.31.0
+
+# Data processing
+numpy>=1.24.0
+opencv-python==4.8.1.78
+
+# Computer Vision and Face Analysis
+mediapipe>=0.10.0
+
+# Music and Audio
+mutagen>=1.47.0
+pygame>=2.5.0
+
+# Additional dependencies for widgets
+spotipy>=2.25.0
+python-dateutil>=2.8.0
+python-dotenv>=1.0.0
+
+# Other dependencies (add your existing ones)
+# Add any other requirements your existing widgets need
