@@ -15,6 +15,12 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Retain only the fonts used by the application
+/fonts/*
+!/fonts/SF-Pro-Display-Regular.otf
+!/fonts/SF-Pro-Text-Regular.otf
+!/fonts/SF-Pro-Text-Thin.otf
+
 # Runtime/cache files
 .cache/
 .cache
