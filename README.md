@@ -57,7 +57,7 @@ GitHub Actions validates every push and pull request with:
 - Python 3.11 setup
 - Dependency installation
 - `compileall` source validation
-- Pytest test discovery
+- Unittest discovery
 
 The workflow is located at [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
